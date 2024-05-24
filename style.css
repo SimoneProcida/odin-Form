@@ -48,3 +48,34 @@ a:link {
 a:visited {
     color: aliceblue;
 }
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 20px;
+}
+#txt {
+    padding-left: 50px;
+    padding-top: 20%;
+    width: 50%;    
+    font-family: "Poetsen One", sans-serif;
+    font-size: large;
+}
+#form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px 10px;
+    width: 50%;
+    font-family: "Poetsen One", sans-serif;
+    font-size: medium;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
